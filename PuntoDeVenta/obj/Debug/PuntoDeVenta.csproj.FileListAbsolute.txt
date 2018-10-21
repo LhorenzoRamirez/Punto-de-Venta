@@ -1,0 +1,10 @@
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe.config
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.exe
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\bin\Debug\PuntoDeVenta.pdb
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csprojAssemblyReference.cache
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Form1.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.Properties.Resources.resources
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.GenerateResource.cache
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.csproj.CoreCompileInputs.cache
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.exe
+C:\Users\ragde\source\repos\Punto-de-Venta\PuntoDeVenta\obj\Debug\PuntoDeVenta.pdb
