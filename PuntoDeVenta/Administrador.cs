@@ -8,11 +8,13 @@ namespace PuntoDeVenta
 {
     class Administrador
     {
+        private int ID;
         private string nombre;
         private string contraseña;
 
-        public Administrador(string nombre, string contraseña)
+        public Administrador(int ID,string nombre, string contraseña)
         {
+            this.ID = ID;
             this.nombre = nombre;
             this.contraseña = contraseña;
         }
@@ -21,17 +23,17 @@ namespace PuntoDeVenta
         {
             var administrador = obj as Administrador;
             return administrador != null &&
-                   nombre == administrador.nombre;
+                   ID == administrador.ID;
         }
 
         public override int GetHashCode()
         {
-            return -1597784800 + EqualityComparer<string>.Default.GetHashCode(nombre);
+            return 1213502048 + ID.GetHashCode();
         }
 
         public override string ToString()
         {
-            return "\nNombre: " + nombre + "\nContraseña: " + contraseña;
+            return "\nID: " + ID + "\nNombre: " + nombre + "\nContraseña: " + contraseña;
         }
     }
 }

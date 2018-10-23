@@ -16,15 +16,15 @@ namespace PuntoDeVenta
         private double IVA;
         private double total;
 
-        public Venta(int iD, DateTime fecha, List<Producto> productos, int cantidad, 
-                    double subtotal, double iVA, double total)
+        public Venta(int ID, DateTime fecha, List<Producto> productos, int cantidad, 
+                    double subtotal, double IVA, double total)
         {
-            ID = iD;
+            this.ID = ID;
             this.fecha = fecha;
             this.productos = productos;
             this.cantidad = cantidad;
             this.subtotal = subtotal;
-            IVA = iVA;
+            this.IVA = IVA;
             this.total = total;
         }
 

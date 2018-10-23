@@ -8,18 +8,11 @@ namespace PuntoDeVenta
 {
     class UsuarioGeneral : Administrador
     {
-        private string e_mail;
-        private string direccion;
-        public UsuarioGeneral(string nombre, string contraseña, string e_mail, string direccion)
-            : base(nombre,contraseña)
-        {
-            this.e_mail = e_mail;
-            this.direccion = direccion;
-        }
+        public UsuarioGeneral(int ID, string nombre, string contraseña) : base(ID,nombre, contraseña) { }
 
         public override string ToString()
         {
-            return base.ToString() + "\nE-mail: " + e_mail + "\nDirección: " + direccion;
+            return base.ToString();
         }
     }
 }
