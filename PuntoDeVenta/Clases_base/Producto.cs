@@ -6,19 +6,23 @@ using System.Threading.Tasks;
 
 namespace PuntoDeVenta
 {
-    class Producto
+    public class Producto
     {
-        private int ID;
-        private string descripcion;
-        private int numStock;
-        private double precio;
+        public int ID { get; set; }
+        public string descripcion { get; set; }
+        public int numStock { get; set; }
+        public double precio { get; set; }
 
-        public Producto(int ID, string descripcion, int numStock, double precio)
+        public Producto(string descripcion, int numStock, double precio)
         {
-            this.ID = ID;
             this.descripcion = descripcion;
             this.numStock = numStock;
             this.precio = precio;
+        }
+
+        public Producto()
+        {
+
         }
 
         public override bool Equals(object obj)

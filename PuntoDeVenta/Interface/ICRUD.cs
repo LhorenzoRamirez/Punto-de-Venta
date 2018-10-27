@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace PuntoDeVenta
 {
-    interface ICRUD
+    public interface ICRUD<T>
     {
-        Boolean crear(object o);
+        int crear(T t);
         Boolean actualizar(object o);
         Boolean eliminar(object o);
-        object leerPorId();
+        T leerPorId(int id);
         object leerPorCondicion();
-        object leerTodo();
+        List<T> leerTodo();
     }
 }
