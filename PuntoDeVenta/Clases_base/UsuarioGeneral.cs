@@ -9,6 +9,10 @@ namespace PuntoDeVenta
     class UsuarioGeneral : Administrador
     {
         public UsuarioGeneral(int ID, string nombre, string contraseña) : base(ID,nombre, contraseña) { }
+        public UsuarioGeneral()
+        {
+
+        }
 
         public override string ToString()
         {

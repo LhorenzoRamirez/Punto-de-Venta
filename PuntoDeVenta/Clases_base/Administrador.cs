@@ -8,15 +8,19 @@ namespace PuntoDeVenta
 {
     class Administrador
     {
-        private int ID;
-        private string nombre;
-        private string contraseña;
+        public int ID { get; set; }
+        public string nombre { get; set; }
+        public string contraseña { get; set; }
 
         public Administrador(int ID,string nombre, string contraseña)
         {
             this.ID = ID;
             this.nombre = nombre;
             this.contraseña = contraseña;
+        }
+        public Administrador()
+        {
+
         }
 
         public override bool Equals(object obj)

@@ -8,24 +8,27 @@ namespace PuntoDeVenta
 {
     class Venta
     {
-        private int ID;
-        private DateTime fecha;
-        private List<Producto> productos;
-        private int cantidad;
-        private double subtotal;
-        private double IVA;
-        private double total;
+        public int ID { get; set; }
+        public DateTime fecha { get; set; }
+        public int cantidad { get; set; }
+        public double subtotal { get; set; }
+        public double IVA { get; set; }
+        public double total { get; set; }
 
-        public Venta(int ID, DateTime fecha, List<Producto> productos, int cantidad, 
+        public Venta(int ID, DateTime fecha, int cantidad, 
                     double subtotal, double IVA, double total)
         {
             this.ID = ID;
             this.fecha = fecha;
-            this.productos = productos;
             this.cantidad = cantidad;
             this.subtotal = subtotal;
             this.IVA = IVA;
             this.total = total;
+        }
+
+        public Venta()
+        {
+
         }
 
         public override bool Equals(object obj)
