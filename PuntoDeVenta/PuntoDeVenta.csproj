@@ -52,6 +52,8 @@
   <ItemGroup>
     <Compile Include="Clases_base\Administrador.cs" />
     <Compile Include="Clases_DAO\ProductosDAO.cs" />
+    <Compile Include="Clases_DAO\UsuarioGeneralDAO.cs" />
+    <Compile Include="Clases_DAO\VentasDAO.cs" />
     <Compile Include="Conexion_MySQL\ConectorMySQL.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
